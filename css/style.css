@@ -1,0 +1,291 @@
+/* headerli class'ı oluşturularak liste öğelerinin yatay hizalaması sağlandı.*/
+.headerli {
+  display: inline-block;
+}
+
+/* About ve Store başlıkları liste öğesi olarak eklendi,link class'ı ile deklarasyonlar oluşturuldu.*/
+.link {
+  float: left;
+  margin-left: -25px;
+  list-style-type: none;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+
+}
+
+/* header class'ına;
+   float: right; deklarasyonu eklendi.
+   [margin: 10px;] margin: 0;
+   [margin-right: 16px;] margin-right: 10px; olarak değiştirildi.*/
+.header {
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  margin-right: 10px;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+
+/* [padding: 5px 5px;] padding: 3px 3px; olarak değiştirildi.*/
+.headerli a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 3px 3px;
+  text-decoration: none;
+}
+
+.headerli a:hover {
+  text-decoration: underline;
+}
+
+/* Sign in butonu liste öğesi olarak eklendi, sign-button class'ı ile deklarasyonlar oluşturuldu.*/
+.sign-button {
+  color: #fff;
+  background: #4285f4;
+  border: 1px solid #4285f4;
+  font-weight: bold;
+  outline: none;
+  border-radius: 2px;
+  text-decoration: none;
+  width: 69px;
+  height: 30px;
+}
+
+/* container class'ında gerekli değişiklikler sağlandı.*/
+.container {
+  width: 272px;
+  height: 92px;
+  padding-top: 109px;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+/* search-area class'ında margin-top: -77px; deklarasyonu kaldırıldı.*/
+.search-area {
+  background: #fff;
+  display: flex;
+  border-radius: 8px;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+  width: 582px;
+}
+
+/* search-area:hover class'ı olması gerektiği gibi herhangi bir değişiklik yapılmadı.*/
+.search-area:hover {
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.24), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* search class'ı olması gerektiği gibi herhangi bir değişiklik yapılmadı.*/
+.search {
+  flex: 1;
+  display: flex;
+  padding: 5px 8px 0 16px;
+  padding-left: 14px;
+}
+
+/* search-img class'ı olması gerektiği gibi herhangi bir değişiklik yapılmadı.*/
+.search-img {
+  display: flex;
+  align-items: center;
+  padding-right: 13px;
+  margin-top: -5px;
+}
+
+/* span elementi için search-img span class'ı tanımlandı.
+[<span class="search-img span">]*/
+.search-img span {
+  color: #9aa0a6;
+  height: 20px;
+  width: 20px;
+  margin-top: 3px;
+  display: inline-block;
+  fill: currentColor;
+  line-height: 24px;
+  position: relative;
+}
+
+/* Voice Logo simgesi için microphone-img class'ı oluturuldu.*/
+.microphone-img {
+  display: flex;
+  flex: 0 0 auto;
+  margin-top: 2px;
+  align-items: stretch;
+  flex-direction: row;
+}
+
+/* Span elementi için microphone-img span class'ı tanımlandı.
+<span class="microphone-img span">*/
+.microphone-img span {
+  background: url(//web.archive.org/web/20191130234759im_/https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png) 0 0 no-repeat;
+  height: 24px;
+  width: 24px;
+  background-size: 24px;
+  vertical-align: middle;
+}
+
+/* input-enter olması gerektiği gibi herhangi bir değişiklik yapılmadı.*/
+.input-enter {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+/* input-area olması gerektiği gibi herhangi bir değişiklik yapılmadı.*/
+.input-area {
+  color: transparent;
+  flex: 100%;
+  white-space: pre;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 34px !important;
+  display: block;
+}
+
+/* input class'ına;
+   width: 480px;
+   background-color: transparent;
+   border: none; deklarasyonları eklendi.
+   [margin-top: -68px;]  margin-top: -37px; olarak değiştirildi.*/
+.input {
+  width: 480px;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  flex: 100%;
+  margin-top: -37px;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 34px !important;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: start;
+  appearance: auto;
+  cursor: text;
+}
+
+/* googlesearch class'ına;
+   height: 36px;
+   border: 1px solid #f2f2f2;
+   border-radius: 4px;
+   font-family: arial, sans-serif;
+   font-size: 14px;
+   background-color: #f2f2f2;
+   color: #5F6368; deklarasyonları eklendi.*/
+.googlesearch {
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  background-color: #f2f2f2;
+  color: #5F6368;
+}
+
+/* Google Search butonuna gölge verildi.*/
+.googlesearch:hover {
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.24), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* feelinglucky class'ına;
+    margin: 11px 4px;
+    height: 36px;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    color: #5F6368; deklarasyonları eklendi.*/
+.feelinglucky {
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  background-color: #f2f2f2;
+  color: #5F6368;
+}
+
+/* Feeling Lucky butonuna gölge veridi.*/
+.feelinglucky:hover {
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.24), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* center class'ı ile butonlar ortalandı.*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 21%;
+}
+
+/* footer class'ına;
+   list-style-type: none; 
+   background-color: #f2f2f2; deklarasyonları eklendi. */
+.footer {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #dfe1e5;
+  border-top: 1px solid #dadce0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-left: -8px;
+  line-height: 10px;
+  list-style-type: none;
+  background-color: #f2f2f2;
+}
+
+/* footerli class'ı olması gerektiği gibi herhangi bir değişiklik yapılmadı.*/
+.footerli {
+  float: left;
+}
+
+/* footerli a olması gerektiği gibi herhangi bir değişiklik yapılmadı.*/
+.footerli a {
+  display: block;
+  color: #70757a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin-left: 14px;
+  margin-right: -20px;
+}
+
+/* footerli a:hover olması gerektiği gibi herhangi bir değişiklik yapılmadı.*/
+.footerli a:hover {
+  text-decoration: underline;
+}
